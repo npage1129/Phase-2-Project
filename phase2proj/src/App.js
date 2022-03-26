@@ -1,6 +1,6 @@
 import React from 'react';
-import Footer from './Footer';
-import Header from './Header';
+import Footer from './Base/Footer';
+import Header from './Base/Header';
 import SideBar from './SideBar';
 import ProductList from './ProductList';
 import './App.css';
