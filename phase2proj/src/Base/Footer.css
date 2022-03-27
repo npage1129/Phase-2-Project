@@ -1,11 +1,46 @@
 .Footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background: src("");
-    color: black;
-    text-align: center;
-    font-size: 2rem;
     background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2969dd34-df35-4d72-a011-2ce6e38f909a/debsxd0-6895b769-f3bb-4552-b65f-063b9ca461c3.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzI5NjlkZDM0LWRmMzUtNGQ3Mi1hMDExLTJjZTZlMzhmOTA5YVwvZGVic3hkMC02ODk1Yjc2OS1mM2JiLTQ1NTItYjY1Zi0wNjNiOWNhNDYxYzMuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.DNAoR4Xv672m1EyRgtKdjEO7fN7QgH64r_58-Q-7KwE");
+}
+
+
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 15px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+  
+
+.fa:hover {
+    opacity: 0.7;
+}
+  
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+  
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-github {
+    background: #013852;
+    color: white;
 }
