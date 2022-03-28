@@ -8,7 +8,6 @@ import './Home.css';
 function Home() {
   return (
     <div className="Home">
-      <p>this is home page</p>
       <Header />
       <SideBar />
       <ProductList />
