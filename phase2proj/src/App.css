@@ -12,11 +12,6 @@
   box-sizing: border-box;
 }
 
-.App div{
-  padding: 10px;
-  border: 1px solid #000;
-}
-
 .Header {
   grid-column-start: 1;
   grid-column-end: 5;

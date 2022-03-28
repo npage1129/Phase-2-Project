@@ -7,6 +7,12 @@ function ProductList() {
         <div className="ProductList">
             <h1>Cocktail Product List</h1>
             <ProductCard />
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
         </div>
     );
 }

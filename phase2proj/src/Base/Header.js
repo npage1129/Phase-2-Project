@@ -4,11 +4,11 @@ import './Header.css';
 function Header() {
     return (
         <div className="Header">
+            <nav ClassName="NavBar">
+                <a href="./Home">Home</a>
+                <a href="./Home">About</a>
+            </nav>
             <h1>Header</h1>
-            {/* <ul>
-                <li><a href="default.asp">Home</a></li>
-                <li><a href="about.asp">About</a></li>
-            </ul> */}
         </div>
     );
 }
