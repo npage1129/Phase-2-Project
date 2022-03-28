@@ -6,7 +6,7 @@ function Header() {
         <div className="Header">
             <nav ClassName="NavBar">
                 <a href="./Home">Home</a>
-                <a href="./Home">About</a>
+                <a href="./About">About</a>
             </nav>
             <h1>Header</h1>
         </div>
