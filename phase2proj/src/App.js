@@ -1,17 +1,18 @@
 import React from 'react';
-import Footer from './Base/Footer';
-import Header from './Base/Header';
-import SideBar from './SideBar';
-import ProductList from './ProductList';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import Home from './Home';
+import About from './About';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <Header />
-      <SideBar />
-      <ProductList />
-      <Footer />
+  return(
+    <div>
+      <Router>
+        <Routes>
+      <Route path= "/"  element = {<Home/>} />
+      <Route path="/about" element = {<About/>}/>
+      </Routes>
+      </Router>
     </div>
   );
 }
