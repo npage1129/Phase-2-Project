@@ -18,11 +18,22 @@ function ProductList() {
                 <input type="submit" value="Submit"/> 
             </form>
             <h1>Cocktail Product List</h1>
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
+            <div className="cards">
+                <ProductCard />
+                <br></br>
+                <ProductCard />
+                <ProductCard />
+                <ProductCard />
+                <ProductCard />
+                <ProductCard />
+                <ProductCard />
+                <ProductCard />
+                <ProductCard />
+                <ProductCard />
+                <ProductCard />
+                <ProductCard />
+                <ProductCard />
+            </div>
         </div>
     );
 }
