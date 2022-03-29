@@ -5,9 +5,11 @@ function SideBar() {
     return (
         <div className="sidebar">
             <p>inside side bar</p>
+        
         </div>
-    );
+    )
+    
 }
-  
+
 export default SideBar;
   
