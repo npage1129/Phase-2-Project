@@ -9,14 +9,8 @@ function ProductList() {
         window.location.replace("http://localhost:3000/Home")
         alert("Thank you for submitting your information!")
     }
+const [search, getSearch] = useState('')
 
-    //variables for api
-    // const cocktail = `margarita`
-    // const api = `https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita`
-
-
-
-    //map out the states
     
     return (
         <div className="ProductList">
@@ -27,10 +21,11 @@ function ProductList() {
             </form>
             <h1>Cocktail Product List</h1>
             <div className="cards">
-                <ProductCard  />
+                <ProductCard />
             </div>
         </div>
     );
 }
-
+  
 export default ProductList;
+  

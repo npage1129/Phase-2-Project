@@ -2,17 +2,20 @@ import React from 'react';
 import './Header.css';
 
 function Header() {
+
+    function directHome(){
+        window.location.replace("http://localhost:3000/Home")
+    }
     return (
         <div className="Header">
-            <nav ClassName="NavBar"> 
-                <a href="./Home" >Home<br></br></a> 
-                <a href="./About">About<br></br></a>
-                <a href="./Contact">Contact<br></br></a>
+            <nav className="navBar"> 
+                <a className ='navLink' href="./Home" >Home<br></br></a> 
+                <a className ='navLink' href="./About">About<br></br></a>
+                <a className ='navLink' href="./Contact">Contact<br></br></a>
             </nav>
-            <h1></h1>
+            <img src="https://i.ibb.co/PNcwdZt/resived-logo.jpg" alt="Lamp" width="130px" height="83px" onClick={directHome} ></img>
         </div>
     );
 }
   
 export default Header;
-  

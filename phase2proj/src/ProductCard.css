@@ -1,14 +1,17 @@
 .ProductCard {
-
     padding: 10px;
-    border: 1px solid #000;
-    margin-bottom: 1px;
-    
+    /* border: 1px solid #000; */
+    margin-bottom: 10px;
+    display: inline-block;
 }
-    /* margin-bottom: 10px;
-    padding: 10px;
-} */
 
 .ingredient{
     text-align: center;
+}
+
+.cards{
+    border: 1px solid #000;
+}
+.img{ 
+    
 }
