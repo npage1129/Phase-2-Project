@@ -1,18 +1,28 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import './ProductCard.css';
 
 function ProductCard() { 
+    const [dunk, setDunk] = useState({})
+    useEffect(()=> {
+        fetch('https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita')
+            .then((resp) => resp.json())
+            .then((data) => setDunk(data.drinks))
+    },[])
+    const rice = dunk
+    console.log(rice)
+
+    
+
     return (
     <div className="ProductCard">
-        <img src="https://previews.123rf.com/images/sundaribardia/sundaribardia1604/sundaribardia160400052/56832824-familia-de-hippopotamidae-especie-amphibius-hipop%C3%B3tamo-agua-potable-en-la-orilla-del-r%C3%ADo.jpg" width="100px" height="100px"/>
-        <h1 ClassName="title">Cocktail Title</h1>
-        <ul>
-            <li ClassName="ingredient">Ingredient 1</li>
-            <li ClassName="ingredient">Ingredient 2</li>
-            <li ClassName="ingredient">Ingredient 3</li>
-            <li ClassName="ingredient">Ingredient 4</li>
-            <li ClassName="ingredient">Ingredient 5</li>
-        </ul>
+            <img src={rice.strDrinkThumb} width="100px" height="100px"/>
+            <h1 ClassName="title">{rice.strDrink}</h1>
+            <ul>
+                {rice.strIngredient4 ? <li ClassName="ingredient">{rice.strIngredient4}</li> : null }
+                {rice.strIngredient2 ? <li ClassName="ingredient">{rice.strIngredient2}</li> : null }
+                {rice.strIngredient3 ? <li ClassName="ingredient">{rice.strIngredient3}</li> : null }
+                {rice.strIngredient4 ? <li ClassName="ingredient">{rice.strIngredient4}</li> : null }
+            </ul>
     </div>
     );
 }
