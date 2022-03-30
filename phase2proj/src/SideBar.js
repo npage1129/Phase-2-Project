@@ -8,24 +8,6 @@ function SideBar() {
 
     return(
         <div className="sidebar">
-<<<<<<< HEAD
-<<<<<<< HEAD
-            <p>inside side bar</p>
-        
-=======
-            <h3>Need Ideas? Try this random cocktail!</h3>
-            <p>cocktail</p>
->>>>>>> main
-        </div>
-    )
-    
-}
-<<<<<<< HEAD
-
-=======
- 
->>>>>>> main
-=======
             
                 <>   
             <h3>Need Ideas? Try this random cocktail!</h3>
@@ -37,5 +19,4 @@ function SideBar() {
 }
 
 
->>>>>>> main
 export default SideBar;
