@@ -21,7 +21,7 @@ function ProductList() {
             </form>
             <h1>Cocktail Product List</h1>
             <div className="cards">
-                <ProductCard />
+                {/* <ProductCard /> */}
             </div>
         </div>
     );

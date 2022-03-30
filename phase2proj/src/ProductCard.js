@@ -3,7 +3,7 @@ import './ProductCard.css';
 
 function ProductCard() {
    
-
+    //useeffect testing
     // const [dunk, setDunk] = useState({})
     // useEffect(()=> {
     //     fetch('https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita')
@@ -13,6 +13,8 @@ function ProductCard() {
 
     // const drink = dunk
     // console.log(drink)
+
+    //await and asynce testing
 
     // const [drink, setDrink] = useState({})
     // useEffect(()=> {
@@ -39,23 +41,26 @@ function ProductCard() {
     //             </ul>
     //     </div>
     // );
+    
 
-    const [recipe, setRecipe] = useState({})
-    useEffect(()=> {
-        fetch('https://api.spoonacular.com/recipes/complexSearch?number=10&cuisine=italian&apiKey=8d5e3199479f47578aad9fd5e212aa72')
-            .then((resp) => resp.json())
-            .then((data) => setRecipe(data))
-    },[])
+    //testing with a food api
 
-    const cuisine = (recipe.results)
+    // const [recipe, setRecipe] = useState({})
+    // useEffect(()=> {
+    //     fetch('https://api.spoonacular.com/recipes/complexSearch?number=10&cuisine=italian&apiKey=8d5e3199479f47578aad9fd5e212aa72')
+    //         .then((resp) => resp.json())
+    //         .then((data) => setRecipe(data))
+    // },[])
 
-        return (
-        <div className="ProductCard">
-            <p>hello</p>
-                {/* <h3 ClassName="title">{cuisine.title}</h3>
-                <img src={cuisine.image} width="100px" height="100px"/> */}
-        </div>
-    );
+    // const cuisine = (recipe.results)
+
+    //     return (
+    //     <div className="ProductCard">
+    //         <p>hello</p>
+    //             <h3 ClassName="title">{cuisine.title}</h3>
+    //             <img src={cuisine.image} width="100px" height="100px"/>
+    //     </div>
+    // );
 
     // <img src={drink.strDrinkThumb} width="100px" height="100px"/>
     //             <h1 ClassName="title">{drink.strDrink}</h1>
