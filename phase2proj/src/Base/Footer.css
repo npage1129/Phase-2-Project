@@ -18,6 +18,56 @@
     width: 275px;
 }
 
+@media (min-width: 768px){
+    .NicoleLinks{
+        position: relative;
+        left: 60%;
+        bottom: 33px;
+        width: 275px;
+    }
+}
+@media (min-width: 1024px){
+    .NicoleLinks{
+        position: relative;
+        left: 76.5%;
+        bottom: 33px;
+        width: 275px;
+    }
+}
+@media (min-width: 1108px){
+    .NicoleLinks{
+        position: relative;
+        left: 76.6%;
+        bottom: 33px;
+        width: 275px;
+    }
+}
+@media (min-width: 1218px){
+    .NicoleLinks{
+        position: relative;
+        left: 77%;
+        bottom: 33px;
+        width: 275px;
+    }
+}
+@media (min-width: 1482px){
+    .NicoleLinks{
+            position: relative;
+            left: 80%;
+            bottom: 33px;
+            width: 275px;
+    }
+}
+/* 
+@media (min-width: 1500px){
+    .NicoleLinks{
+            position: relative;
+            left: 82%;
+            bottom: 33px;
+            width: 275px;
+    }
+} */
+
 /* Style all font awesome icons */
 .fa {
     padding: 20px;
