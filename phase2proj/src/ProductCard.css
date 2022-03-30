@@ -1,9 +1,13 @@
 .ProductCard {
     padding: 10px;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     margin-bottom: 10px;
 }
 
 .ingredient{
     text-align: center;
+}
+
+.cards{
+    border: 1px solid #000;
 }
