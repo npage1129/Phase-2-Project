@@ -13,9 +13,9 @@ function Header() {
                 <a className ='navLink' href="./About">About<br></br></a>
                 <a className ='navLink' href="./Contact">Contact<br></br></a>
             </nav>
-            <img src="https://i.ibb.co/PNcwdZt/resived-logo.jpg" alt="Lamp" width="130px" height="83px" onClick={directHome} ></img>
+            <img src="https://i.ibb.co/PNcwdZt/resived-logo.jpg" alt="Logo" width="130px" height="83px" onClick={directHome} ></img>
         </div>
     );
 }
   
-export default Header;
+export default Header;     
