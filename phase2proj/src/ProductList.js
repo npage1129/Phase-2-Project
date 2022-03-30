@@ -9,7 +9,7 @@ function ProductList() {
         window.location.replace("http://localhost:3000/Home")
         alert("Thank you for submitting your information!")
     }
-
+const [search, getSearch] = useState('')
 
     
     return (
@@ -21,7 +21,7 @@ function ProductList() {
             </form>
             <h1>Cocktail Product List</h1>
             <div className="cards">
-                {/* <ProductCard /> */}
+                <ProductCard />
             </div>
         </div>
     );
