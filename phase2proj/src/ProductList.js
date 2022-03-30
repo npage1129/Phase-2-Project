@@ -9,6 +9,21 @@ function ProductList() {
         window.location.replace("http://localhost:3000/Home")
         alert("Thank you for submitting your information!")
     }
+
+    //variables for api
+    const api = `www.thecocktaildb.com/api/json/v1/1/search.php?s=${cocktail}`
+    const cocktail = `margarita`
+
+    //state for search
+    
+
+
+    //states for the cocktails
+
+    //fetch request
+
+
+    //map out the states
     
     return (
         <div className="ProductList">
@@ -19,19 +34,6 @@ function ProductList() {
             </form>
             <h1>Cocktail Product List</h1>
             <div className="cards">
-                <ProductCard />
-                <br></br>
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
-                <ProductCard />
                 <ProductCard />
             </div>
         </div>
