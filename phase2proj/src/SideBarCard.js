@@ -36,8 +36,8 @@ function SideBarCard(){
             <img src={drink.strDrinkThumb} width="100px" height="100px"/>
             <h1 ClassName="title">{drink.strDrink}</h1>
             <ul>
-                <li ClassName="ingredient">{drink.strIngredient1}</li>
-                <li ClassName="ingredient">{drink.strIngredient2}</li>
+                {drink.strIngredient4 ? <li ClassName="ingredient">{drink.strIngredient4}</li> : null }
+                {drink.strIngredient2 ? <li ClassName="ingredient">{drink.strIngredient2}</li> : null }
                 {drink.strIngredient3 ? <li ClassName="ingredient">{drink.strIngredient3}</li> : null }
                 {drink.strIngredient4 ? <li ClassName="ingredient">{drink.strIngredient4}</li> : null }
             </ul>

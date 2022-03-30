@@ -6,7 +6,7 @@ const api = "www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita"
 
 function SideBar() {
 
-return(
+    return(
         <div className="sidebar">
             
                 <>   
