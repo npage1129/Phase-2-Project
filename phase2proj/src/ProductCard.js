@@ -1,8 +1,7 @@
-import React,{useState,UseEffect} from 'react';
+import React from 'react';
 import './ProductCard.css';
 
-function ProductCard() {
-
+function ProductCard() { 
     return (
     <div className="ProductCard">
         <img src="https://previews.123rf.com/images/sundaribardia/sundaribardia1604/sundaribardia160400052/56832824-familia-de-hippopotamidae-especie-amphibius-hipop%C3%B3tamo-agua-potable-en-la-orilla-del-r%C3%ADo.jpg" width="100px" height="100px"/>

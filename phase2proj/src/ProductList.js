@@ -11,12 +11,21 @@ function ProductList() {
     }
 
     //variables for api
-    const api = `www.thecocktaildb.com/api/json/v1/1/search.php?s=${cocktail}`
-    const cocktail = `margarita`
+    const entry = e.target.value;
+    const url = `www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita` +entry
 
     //state for search
     
-
+    changehandler=(e)=>{
+        const entry = e.target.value;
+        const url = `www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita` +entry
+        }
+        const [cocktail, setCocktail] = useState({})
+        useEffect(()=> {
+            fetch(url)
+                .then((resp) => resp.json())
+                .then((data) => setCocktail(data.drinks[0]))
+        },[])
 
     //states for the cocktails
 
