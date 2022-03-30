@@ -4,7 +4,6 @@ import './ProductList.css';
 
 
 function ProductList() {
-    const [searchTerm, setSearchTerm] = useState('')
     function handleSubmitter(event) {
         event.preventDefault();
         window.location.replace("http://localhost:3000/Home")
@@ -22,7 +21,7 @@ function ProductList() {
             </form>
             <h1>Cocktail Product List</h1>
             <div className="cards">
-                <ProductCard searchTerm={searchTerm}/>
+                <ProductCard />
             </div>
         </div>
     );
