@@ -1,8 +1,9 @@
 .ProductCard {
     padding: 10px;
     /* border: 1px solid #000; */
-    margin-bottom: 10px;
-    display: flex;
+
+    
+    
 }
 
 .ingredient{
@@ -10,9 +11,13 @@
 }
 
 .cards{
+    display: flex;
+    justify-content: space-between;
     border: 1px solid #000;
-    overflow: clip;
+    overflow: scroll;
+    padding: 5px;
 }
-.img{ 
-    
+
+.cards img{
+    justify-content: center;
 }

@@ -27,25 +27,3 @@ function SideBarCard(){
     )
 }
 export default SideBarCard;
-
-
-    // const cocktailInfo = {
-    //     idDrink,
-    //     strDrink, 
-    //     strDrinkThumb, 
-    //     strIngredient1, 
-    //     strIngredient2, 
-    //     strIngredient3,
-    //     strIngredient4,
-    // }
-    // const {
-    //     idDrink,
-    //     strDrink, 
-    //     strDrinkThumb, 
-    //     strIngredient1, 
-    //     strIngredient2, 
-    //     strIngredient3,
-    //     strIngredient4,
-    // } = cocktailInfo
-    // console.log(drink.drinks[0].strDrink)
-    // const randomDrink = drink.drinks[0]
