@@ -2,17 +2,11 @@
     overflow: auto;
     background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2969dd34-df35-4d72-a011-2ce6e38f909a/debsxd0-6895b769-f3bb-4552-b65f-063b9ca461c3.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzI5NjlkZDM0LWRmMzUtNGQ3Mi1hMDExLTJjZTZlMzhmOTA5YVwvZGVic3hkMC02ODk1Yjc2OS1mM2JiLTQ1NTItYjY1Zi0wNjNiOWNhNDYxYzMuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.DNAoR4Xv672m1EyRgtKdjEO7fN7QgH64r_58-Q-7KwE");
     padding: 10px 10px 10px 10px;
-    border: 1px solid #000;
+    border: 2px solid #000;
 }
 
-.cards{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 5px 10px;
-    justify-content: center;
-    padding: 10px 10px 10px 10px;
+.ProductList h1{
+    text-align: center;
 }
 
-h1 {
-    padding: 10px;
-}
+
