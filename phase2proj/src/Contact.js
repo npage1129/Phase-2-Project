@@ -20,18 +20,6 @@ function Contact() {
         alert("Thank you for submitting your information!")
     }
     
-    // useEffect(()=> {
-    //     fetch('http://localhost:4000/contact', {
-    //         method: 'POST',
-    //         headers: {'Content-Type':'application/json'},
-    //         body: JSON.stringify({
-    //             name: name, 
-    //             email: email, 
-    //             content: content
-    //         }),
-    //     })
-    // },[handleSubmit])
-
     
     return (
         <div>
