@@ -7,3 +7,11 @@
 h3{
     text-align: center;
 }
+.randomImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border: 3px solid #000;
+    background-image: url("https://media.istockphoto.com/vectors/pattern-stripe-seamless-black-and-white-colors-diagonal-pattern-vector-id846366464?k=20&m=846366464&s=612x612&w=0&h=7I7OW08ph6xm-9PsndUPPq6bGQjfIpg2ywrodcoG7O0=");  
+}

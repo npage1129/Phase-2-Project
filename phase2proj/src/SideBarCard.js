@@ -1,5 +1,5 @@
 import React,{useEffect, useState} from 'react';
-import SideBar from './SideBar';
+import './SideBar.css';
 
 function SideBarCard(){
     
@@ -13,7 +13,7 @@ function SideBarCard(){
 
     return(
         <div className="RandomDrink">
-            <img src={drink.strDrinkThumb} width="100px" height="100px"/>
+            <img className = "randomImg" src={drink.strDrinkThumb} width="100px" height="100px"/>
             <h1 ClassName="title">{drink.strDrink}</h1>
             <ul>
                 {drink.strIngredient1 ? <li ClassName="ingredient">{drink.strMeasure1}{drink.strIngredient1}</li> : null }

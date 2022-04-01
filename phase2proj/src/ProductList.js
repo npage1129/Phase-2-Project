@@ -9,7 +9,7 @@ function ProductList({drink}) {
     //     window.location.replace("http://localhost:3000/Home")
     //     alert("Thank you for submitting your information!")
     // }
-    const [searchTerm, setSearchTerm] = useState("margarita")
+    const [searchTerm, setSearchTerm] = useState("")
     function handleSubmit(event) {
         event.preventDefault();
     }
