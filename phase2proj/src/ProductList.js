@@ -34,6 +34,5 @@ function ProductList({drink}) {
         </div>
     );
 }
-  
-export default ProductList;
-  
+
+export default ProductList
