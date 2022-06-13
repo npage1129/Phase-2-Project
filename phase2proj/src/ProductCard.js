@@ -11,7 +11,7 @@ function ProductCard({searchTerm, handleSubmit}) {
             .then((resp) => resp.json())
             .then((data) => setDrink(data.drinks))
             .catch(function(error){
-                alert('Cocktail not found, please enter a real cocktail you fucking dumbass. this is a cocktail website!')
+                alert('Cocktail not found, please try again.')
                 window.location.replace("http://localhost:3000/Home")
             })
     },[handleSubmit])
